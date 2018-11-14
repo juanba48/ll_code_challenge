@@ -2,22 +2,27 @@
 
 [Instructions](#instructions)<br />
 
-Clone the repo and push up your changes and share link.
+preconditions
+-- You need to have configured Environment Variables for Java, Maven, Chrome driver, Firefox driver
 
-Using Protractor or WebDriverIO
-Bonus points for leveraging a BDD tool.
+steps to run
+way 1. -- video of execution - https://www.screencast.com/t/FRcK41UY
+- using the console, go to the folder where the pom file is located
+- run this maven command: mvn clean test 
+- this should start the execution of the test
+-when test is completed you should be able to see a report in target folder: \target\surefire-reports
 
-Fork this Repo<br />
-Create a branch and name it with your "firstname_lastname_LL_challenge"<br />
-Make sure to update your README to show how to run your scripts<br />
-Fulfill the following two scenarios<br />
-Once complete push your branch up
+way 2.  -- video of execution - https://www.screencast.com/t/iv3IX991I
+- You can open with any IDE, like eclipse, IntelliJ, Netbeans
+- Import as maven project, you should select pom file and the IDE should import the project.
+- Finally, you can look for testNG file in \src\main\resources 
+- Right click on the testng file and select run option.
 
-Feature: Automate<br /> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As an Engr. Candidate<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I need to automate  http://www.way2automation.com/angularjs-protractor/webtables/<br /> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So I can show my automation capabilities<br />
-    
-Scenario: Add a user and validate the user has been added to the table<br />
+ how I resolve the tcs
+ 
+ - I used maven, selenium web driver and Java to create a framework.
+ - I implemented design patterns, PageObject, PageFactory and BotStyle.
 
-Scenario: Delete user User Name: novak and validate user has been deleted<br />
+ ---
+
+I really would like to continue learning about new technologies. Let me Know if you have any question please..
